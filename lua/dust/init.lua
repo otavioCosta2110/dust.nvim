@@ -1,6 +1,6 @@
 local M = {}
 
-local palette = require("gruvbox_minimal.palette").palette
+local palette = require("dust.palette").palette
 
 function M.setup()
   local background = vim.opt.background:get()

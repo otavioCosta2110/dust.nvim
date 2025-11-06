@@ -3,6 +3,6 @@ if vim.fn.exists("syntax_on") then
   vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "gruvbox_minimal"
+vim.g.colors_name = "dust"
 
-require("gruvbox_minimal").setup()
+require("dust").setup()
